@@ -48,8 +48,8 @@ brew cask install mou
 brew cask install openoffice
 brew cask install dropbox
 brew cask install flux
-brew cask install evernote
-brew cask install jing
+# brew cask install evernote
+# brew cask install jing
 
 # mysql should start on launch
 ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
@@ -69,8 +69,8 @@ wget -O the_crowd_roars.mp3 http://soundbible.com/grab.php\?id\=1995\&type\=mp3
 mv the_crowd_roars.mp3 ~/meshev-sounds/.
 
 # ZSH customizations
-echo ZSH_THEME='pygmalion' > ~/.zshrc
-echo ZSH_CUSTOM=$HOME/loki-init/meshev_zsh > ~/.zshrc
+ echo ZSH_THEME='pygmalion' > ~/.zshrc
+ echo ZSH_CUSTOM=$HOME/loki-init/meshev_zsh > ~/.zshrc
 
 # Hold my own hand to make sure I finish configuring.
 echo "Now that you are done, Michelle, don't forget that you need to:
